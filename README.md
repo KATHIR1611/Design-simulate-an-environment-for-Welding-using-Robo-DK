@@ -76,14 +76,14 @@ you can manually enter in a value or bring your mouse over it and use the scroll
 up or down.
 9. By doing this, you can see the orientation of the ghost tool changing
 
-10. ![image](https://user-images.githubusercontent.com/36288975/173730657-fe5452ba-90f3-4dab-9a1f-39682983ef41.png)
-11. In this case, the basic option does not seem to fix our problem. Fortunately, you can have more options to work
+ ![image](https://user-images.githubusercontent.com/36288975/173730657-fe5452ba-90f3-4dab-9a1f-39682983ef41.png)
+10. In this case, the basic option does not seem to fix our problem. Fortunately, you can have more options to work
 with; you can reveal them by clicking the blue plus button and change them according to your project.
-12. You can change the rotation around the Z axis (rotz) to its original value, zero, and then click on the “+Z”
+11. You can change the rotation around the Z axis (rotz) to its original value, zero, and then click on the “+Z”
 button.
-13. As you can see with the ghost tools, the robot flange will always be on top of the part. Click Update and
+12. As you can see with the ghost tools, the robot flange will always be on top of the part. Click Update and
 then Simulate to simulate the result.
-14. If you use the scroll bar, the new tool orientation facilitates the cable management of the tool; it has no
+13. If you use the scroll bar, the new tool orientation facilitates the cable management of the tool; it has no
 risk of interfering with the robot.
 ![image](https://user-images.githubusercontent.com/36288975/173730700-8782988f-bb79-465e-95f4-e4041b740c70.png)
 
