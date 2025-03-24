@@ -1,4 +1,4 @@
-# EXPERIMENT:4 Design-simulate-an-environment-for-Welding-using-Robo-DK
+# EXPERIMENT:4 Design simulate an environment for Welding using Robo DK
 
 ## Aim:
   To Design & simulate an environment for welding operation using robodk 
