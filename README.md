@@ -1,14 +1,12 @@
-# Lab-Ex.-No---6-Design-simulate-an-environment-for-Welding-using-Robo-DK
+# EXPERIMENT:4 Design-simulate-an-environment-for-Welding-using-Robo-DK
 
-
- 
-## AIM:
+## Aim:
   To Design & simulate an environment for welding operation using robodk 
 
 ## Software  Required:
-Robodk
+1. Robodk
 
-### Theory
+## Theory:
 When using robots for any process, the method requires amending to accommodate automation. The same is true of welding, which uses several tools not found in its manual equivalent. People don’t need programming the way robotic welders do.
 
 The robot itself has an arm that can move in three dimensions for rectilinear types and through more planes with articulating versions. A wire feeder sends the filler wire to the robot as it needs it for a welding job. A high-heat torch at the end of the arm melts metal to enable the welding process. Because the temperatures reach thousands of degrees, using robots for this process keeps people safer.
@@ -18,7 +16,8 @@ Certified human operators still need to remain close to the robots. These worker
 The tool in the robotic arm heats to melt metal to conjoin the desired pieces. As needed, a wire feeder delivers more metal wire to the arm and torch. When awaiting the next parts to weld, the arm moves the torch to the cleaner to clean any metal splatters from the arm, which could solidify in place without this process.
 
 Because one of the primary reasons to have robotic welders is protecting human workers, these automated systems come with multiple safety features. Arc shields prevent the high-heat arc from mixing with oxygen. Enclosed areas protect operators from the temperatures and bright light.
-### ROBOTIC WELDING PROCESSES
+
+## Robotic welding processes:
 Welding requires a high level of education and skill. However, the number of professional welders does not meet the needs of the industry. According to the American Welding Society, by 2022, the industry will experience a shortage of 450,000 welders. Instead of letting critical projects these workers would complete fall behind, robots can pick up the slack.
 
 Robots automate the process, which ensures higher accuracy, less waste and faster operation. With the range of machinery available, robots adapt to a wide variety of welding processes including arc, resistance, spot, TIG and more.
@@ -47,10 +46,9 @@ Plasma welding offers the most significant degree of flexibility because the ope
 
 
 
-### Procedure 
+## Procedure: 
 
-
- Import the 3d model in to the project  :
+Import the 3d model in to the project  :
 1. Go to the RoboDK tab in SolidWorks and select Auto Setup.
 2. Select the welding paths. Make sure to also select the faces as they help orient the robot tool.
 3. Now that you have imported the path from SolidWorks, you can go to RoboDK.
@@ -78,11 +76,11 @@ up or down.
 10. ![image](https://user-images.githubusercontent.com/36288975/173730657-fe5452ba-90f3-4dab-9a1f-39682983ef41.png)
 11. In this case, the basic option does not seem to fix our problem. Fortunately, you can have more options to work
 with; you can reveal them by clicking the blue plus button and change them according to your project.
-10. You can change the rotation around the Z axis (rotz) to its original value, zero, and then click on the “+Z”
+12. You can change the rotation around the Z axis (rotz) to its original value, zero, and then click on the “+Z”
 button.
-11. As you can see with the ghost tools, the robot flange will always be on top of the part. Click Update and
+13. As you can see with the ghost tools, the robot flange will always be on top of the part. Click Update and
 then Simulate to simulate the result.
-12. If you use the scroll bar, the new tool orientation facilitates the cable management of the tool; it has no
+14. If you use the scroll bar, the new tool orientation facilitates the cable management of the tool; it has no
 risk of interfering with the robot.
 ![image](https://user-images.githubusercontent.com/36288975/173730700-8782988f-bb79-465e-95f4-e4041b740c70.png)
 
@@ -93,16 +91,7 @@ risk of interfering with the robot.
 5. Now the robot retracts normal to the welding path and then straight up
 6. ![image](https://user-images.githubusercontent.com/36288975/173730741-29331e12-e805-44da-bc71-798894720348.png)
 
-
-
-```
-NAME:V.K.SUJITH KUMAR
-REG NO:21222122052
-```
-
-
-
-PROGRAM:
+## Program:
 ```
 import sys
 import os
@@ -142,7 +131,7 @@ r.ProgSave(r"""C:/Users/Jayashree Rao/OneDrive/Documents/RoboDK""",r"""Prog1""",
 
 
 
-### Results of simulation :
+## Simulation :
 
 
 
@@ -209,7 +198,7 @@ r.ProgSave(r"""C:/Users/Jayashree Rao/OneDrive/Documents/RoboDK""",r"""Prog1""",
 
 
 
-Results:
+## Result:
 
 
 Thus, an environment for welding operation using robodk is Designed & simulated.
